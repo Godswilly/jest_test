@@ -1,0 +1,31 @@
+{
+  "name": "jest_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev:watch": "webpack --mode development --watch",
+    "test": "jest",
+    "watch": "jest --watch test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godswilly/jest_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godswilly/jest_test/issues"
+  },
+  "homepage": "https://github.com/Godswilly/jest_test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
